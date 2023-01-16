@@ -1,3 +1,6 @@
 [submodule "cairo_math_64x61_git"]
 	path = lib/cairo_math_64x61_git
 	url = https://github.com/influenceth/cairo-math-64x61.git
+[submodule "open_zeppelin"]
+	path = lib/open_zeppelin
+	url = https://github.com/OpenZeppelin/cairo-contracts
