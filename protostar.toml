@@ -1,0 +1,10 @@
+[project]
+protostar-version = "0.9.1"
+lib-path = "lib"
+
+[contracts]
+main = ["src/main.cairo", "./lib/cairo_math_64x61_git/contracts/cairo_math_64x61/math64x61.cairo" , "./lib/cairo_math_64x61_git/contracts/cairo_math_64x61/hyp64x61.cairo"]
+
+[build]
+cairo-path = ["./lib/cairo-contracts/src"]
+
